@@ -1,3 +1,21 @@
+@font-face{
+    font-family: 'Montserrat-ExtraBold';
+    src: url('http://Sches.github.io/src/fonts/Montserrat-ExtraBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'PT-Mono';
+    src: url('http://Sches.github.io/src/fonts/PTM55FT.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'PT-Sans';
+    src: url('http://Sches.github.io/src/fonts/PTS55F.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 #p2, #p3, #p4, #p5{
     padding-bottom: 100px;
     padding-top: 100px;
