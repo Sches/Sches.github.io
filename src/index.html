@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" media="(min-device-width: 860px)" href="./style.css"/>
+        <link rel="stylesheet" type="text/css" media="(min-device-width: 460px) and (max-device-width:850px)" href="./600px.css"/>
+        <link rel="stylesheet" type="text/css" media="(max-device-width:450px)" href="./320px.css"/>
+    </head>
+    <body>
+        <div class="l-wrap">
+            <div id="p1">
+                <div class="three-col-grid">
+                    <div class="sidebar"><p></p></div>
+                    <div class="content">
+                        <center>
+                            <img src="images/oCmFkV60hNIr.jpg" alt="" class="photo"/>
+                            <p class="headline">Счеснович Анастасия</p>
+                            <p class="text1">11.11.1997</p>
+                            <a href="#p5"><button class="button"><center><p>Контакты</p></center></button></a>
+                        </center>
+                    </div>
+                    <div class="sidebar"><p></p></div> 
+                </div>
+            </div>
+            
+            <div id="p2">
+                <div class="three-col-grid">
+                    <div class="sidebar"><p></p></div>
+                    <div class="content">
+                        <p class="subtitle">О себе</p>
+                        <hr>
+                        <input type="checkbox" id="hd-1" class="hide"/>
+                        <label for="hd-1" class="bigText">Образование</label>
+                        <div class="text1">
+                            Высшее образование: 2015г. - настоящее время. 
+                            БГУ, факультет радиофизики и компьютерных технологий.
+                            Кафедра телекоммуникаций и информационных технологий.
+                            Специальность прикладная информатика.
+                        </div>
+                        <br/>
+                        <br/>
+                        <hr>
+                        <input type="checkbox" id="hd-2" class="hide"/>
+                        <label for="hd-2" class="bigText">Навыки</label>
+                        <div class="text1">
+                            <ul>
+                                <li>Уверенное пользование ОС Windows;</li>
+                                <li>Знание устройства ПК;</li>
+                                <li>Быстрая обучаемость.</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <br/>
+                        <hr>
+                        <input type="checkbox" id="hd-3" class="hide"/>
+                        <label for="hd-3" class="bigText">Работала с ПО</label>
+                        <div class="text1">
+                            <ul>
+                                <li>IAR Embedded Workbench, </li>
+                                <li>MS Office,</li>
+                                <li>MS Visual Studio,</li>
+                                <li>Visual Studio Code,</li>
+                                <li>Oracle VM VirtualBox,</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <br/>
+                        <hr>
+                        <input type="checkbox" id="hd-4" class="hide"/>
+                        <label for="hd-4" class="bigText">Работала с языками программирования и технологиями</label>
+                        <div class="text1">
+                            <ul>
+                                <li>С++;</li>
+                                <li>C#;</li>
+                                <li>HTML;</li>
+                                <li>CSS;</li>
+                                <li>JS;</li>
+                                <li>Bootstrap;</li>
+                                <li>ASP.NET Core</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <br/> 
+                        <hr class="last"> 
+                    </div>
+                    <div class="sidebar"><p></p></div> 
+                </div>
+            </div>
+            <div id="p3">
+                <div class="three-col-grid">
+                    <div class="sidebar"><p></p></div>
+                    <div class="content">
+                        <p class="subtitle">Ожидание от ШРИ</p>
+                        <hr>
+                        <ul class="bigText"> 
+                            <li class="elem">Значительное повышение своих текущих навыков;</li><hr>
+                            <li class="elem">Работа над интересными проектами;</li><hr>
+                            <li class="elem">Перенятие опыта, знаний, наставлений от людей, которые работают в этой сфере; </li><hr>
+                            <li class="elem">Возможность совершенствовать себя;</li><hr>
+                            <li class="elem">Знакомство с новыми интересными людьми.</li>
+                        </ul>
+                    </div>
+                    <div class="sidebar"><p></p></div> 
+                </div>
+            </div>
+            <div id="p4">
+                <div class="three-col-grid">
+                    <div class="sidebar"><p></p></div>
+                    <div class="content">
+                        <center>
+                            <p class="subtitle">Мои проекты</p>
+                            <p class="bigText">Интерфейс системы полива почвы</p>
+                            <div class="carousel">
+                                <div class="carousel-inner">
+                                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                                    <div class="carousel-item">
+                                        <img src="images/p1.jpg">
+                                    </div>
+                                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                                    <div class="carousel-item">
+                                        <img src="images/p2.jpg">
+                                    </div>
+                                    <ol class="carousel-indicators">
+                                        <li>
+                                            <label for="carousel-1" class="carousel-bullet">•</label>
+                                        </li>
+                                        <li>
+                                            <label for="carousel-2" class="carousel-bullet">•</label>
+                                        </li> 
+                                    </ol>
+                                </div>
+                            </div>
+                        </center>
+                        <p class="text2">Система измеряет значение влажности почвы у комнатных растений и значение температуры. Затем посылает данные серверу. 
+                            Веб-интерфейс состоит из двух страниц: главной страницы и страницы состояния.
+                            На главной странице можно увидеть общую информацию о системе.
+                            На странице состояния можно увидеть текущее значение датчиков в процентах: на сколько процентов 
+                            они отличаются от оптимального состояния.
+                        </p>
+                    </div>
+                    <div class="sidebar"><p></p></div> 
+                </div>
+            </div>
+            <div id="p5">
+                <div class="three-col-grid">
+                    <div class="sidebar"><p></p></div>
+                    <div class="content">
+                        <center>
+                            <p class="subtitle">Контактная информация</p>
+                            <a href="tg://resolve?domain=@Stasy_Sches"><img class="tg" src="images/icons8-телеграмма-app-48.png"></a>
+
+                            <form name="mailex" method="post" ectype="text/plain" action="mailto:naste4ka-11.11@mail.ru">
+                                    <input type="text" name="name" class="name" placeholder=" Введите свое имя"/>
+                                    <input type="text" name="email" class="mail" placeholder=" Введите свой E-mail"/>
+                                    <textarea name="textOfEmail" id="textOfEmail" placeholder=" Сообщение"></textarea>
+                                    <input type="submit" name="submit" value="Отправить" />
+                            </form>
+                        </center>
+                    </div>
+                    <div class="sidebar"><p></p></div> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
